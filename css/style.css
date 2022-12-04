@@ -1,0 +1,230 @@
+
+*{
+    box-sizing: border-box;
+}
+div,ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.header-container{
+    height: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    margin: 0 auto;
+    padding:  15px 20px 0;
+}
+.logo{
+display: flex;
+}
+.logo-img{
+    max-width: 70px;
+    height: 70px;
+}
+.logo-title{
+    font-family: "Dancing Script";
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 43px;
+    color: #000;
+    margin-left: 10px;
+}
+.header-form{
+max-width: 500px;
+}
+
+.search-btn{
+    background-image: url(../imges/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0 auto;
+    padding: 15px;
+}
+.wrapper{
+width: 100%;
+height: 56px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border: 1px solid #E3E6EB;
+padding: 15px;
+}
+.result{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    color: #222531;
+    padding-left: 70px; 
+}
+.newest-btn{
+    font-family: 'Rubik', sans-serif;
+width: 135px;
+padding: 5px;
+border-radius: 5px;
+border: none;
+color: #fff;
+background: #A6B0C3;
+}
+.newest-btn:hover{
+
+border: 1px solid #A6B0C3;
+color: #A6B0C3;
+background: #fff;
+transition: 0.4s;
+cursor: pointer;
+}
+.main-container{
+display: grid;
+grid-template-columns: 1fr 4fr;
+}
+
+.bookmark{
+height: auto;
+
+}
+.bookmark-title {
+    margin-top: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.bookmark-subtitle {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.6%;
+    color: #000000;
+}
+.bookmark-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item {
+    width: 218px;
+    height: 72px;
+    padding: 15px;
+    background: #F8FAFD;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+}
+.item-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #000000;
+    margin: 0;
+    margin-bottom: 6px;
+}
+.item-subtitle {
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+color: #757881;
+margin: 0;
+}
+.btns{
+    display: flex;
+    gap: 8px;
+    padding: 7px 0 0 10px;
+}
+.read-book{
+background-image: url(../imges/open.svg);
+width: 24px;
+height: 24px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border: none;
+background-color: inherit;
+
+}
+.delete-book {
+background-image: url(../imges/delete.svg);
+width: 24px;
+height: 24px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border: none;
+background-color: inherit;
+
+}
+
+.cards{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 30px;
+background-color: #F8FAFD;
+padding: 25px;
+}
+.card{
+
+width: 282px;
+padding: 13px;
+
+}
+.card-img {
+width: 249px;
+padding: 20px;
+background-color: #F8FAFD;
+margin-bottom: 19px;
+}
+
+.card-btns {
+    /* width: 246px; */
+    gap: 25px;
+}
+.bookmark-btn {
+    width: 120px;
+    height: 37px;
+    border-radius: 4px;
+    border: none;
+    color: #000;
+    font-weight: 500;
+    background:#FFD80D;
+    margin-top: 10px;
+}
+.maore-info-btn {
+    width: 120px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    color: #0D75FF;
+    font-weight: 500;
+    background: rgba(13, 117, 255, 0.05);
+    border-radius: 4px;
+    margin-left: 6px;
+}
+.read-btn {
+    width: 246px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-weight: 500;
+    background: #75828A;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
